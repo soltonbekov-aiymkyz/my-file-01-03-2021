@@ -1,22 +1,5 @@
-/*
-import { useState } from "react";
 
-function InputRange({ value, min, max }) {
-    const [number, setNumber] = useState(value ?? 0);
-    return (
-        <div className="InputRange">
-            <input
-                type="range"
-                min={min}
-                max={max}
-                value={number}
-                onInput={(event) => setNumber(event.target.value)} /> {number}/{max}
-        </div>
-    );
-}
-export default InputRange;*/
 
-/*
 import { useState } from "react";
 
 function ColorSliders() {
@@ -24,7 +7,7 @@ function ColorSliders() {
     const [g, setG] = useState(0);
     const [b, setB] = useState(0);
     return (
-        <div className="ColorSliders"  style={{ backgroundColor: rgb(${r}, ${g}, ${b}) }}>
+        <div className="ColorSliders"  style={{ backgroundColor: `rgb(${r}, ${g}, ${b})`,padding:14 + "px" }}>
             <div >
                 <input type="range" value={r} min="0" max="255" onInput={({target}) => setR(target.value)} />
             </div>
@@ -37,8 +20,8 @@ function ColorSliders() {
         </div>
     );
 }
-export default ColorSliders;*/
-
+export default ColorSliders;
+/*
 import { useState } from "react";
 
 function ColorSliders({ valueA, valueG, valueB }) {
@@ -71,3 +54,5 @@ function ColorSliders({ valueA, valueG, valueB }) {
     );
 };
 export default ColorSliders;
+
+*/
