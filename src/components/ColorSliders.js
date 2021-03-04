@@ -1,7 +1,5 @@
 
-
 import { useState } from "react";
-
 function ColorSliders() {
     const [r, setR] = useState(0);
     const [g, setG] = useState(0);

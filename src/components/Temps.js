@@ -1,5 +1,4 @@
 import { useState } from "react";
-
 function Temps({ value }) {
   const [num, setNum] = useState(value ?? 0);
 
@@ -14,5 +13,4 @@ function Temps({ value }) {
     </div>
   );
 }
-
 export default Temps;
