@@ -3,7 +3,7 @@ import { useState } from "react";
 function Name() {
     const [name, setName] = useState("");
     return (
-        <div className="Name">
+        <div className="myname">
             <h1>Your name is "{name}"</h1>
             <input
                 type="text"
@@ -13,4 +13,3 @@ function Name() {
     );
 }
 export default Name;
-

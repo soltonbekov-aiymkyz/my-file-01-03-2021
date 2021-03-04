@@ -10,6 +10,8 @@ import Style from "./components/Style";
 import StyleColor from "./components/StyleColor";
 import Hooki from "./components/Hooki";
 import Age from "./components/Age";
+import Number from "./components/Number";
+import ColorSliders from "./components/ColorSliders";
 function  App() {
 
   return(
@@ -27,7 +29,8 @@ function  App() {
       <StyleColor />
       <Hooki  />
       <Age />
-      
+      <Number />
+      <ColorSliders />
     </div>
   )
 };
