@@ -12,5 +12,3 @@ return(
 )
 }
 export default StyleColor;
-
-

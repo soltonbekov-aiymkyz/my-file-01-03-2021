@@ -1,6 +1,5 @@
 
 import { useState } from "react";
-//import InputRange from "./InputRange";
 function InputRate() {
     const [number, SetDollar] = useState("");
     return (

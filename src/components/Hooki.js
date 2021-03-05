@@ -1,7 +1,6 @@
 import { useState } from "react";
 function Hooki() {
     const[count,setCount]=useState(0);
-
     return(
         <div>
             <p>you clicked {count} raz</p>

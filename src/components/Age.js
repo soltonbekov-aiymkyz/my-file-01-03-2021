@@ -6,12 +6,13 @@ function Age() {
         <div className="Age">
             <h1>Your age  is "{age}"</h1>
             <input
-                type="number"
+                type="text"
                 value="number"
                 placeholder="number"
               //  onInput={(event) => setAge(event.target.value.trim())} />
-                onInput={(event) => setAge(event.target.value)} />
+                onInput={(event) => setAge(event.target.value.trim)} />
         </div>
+        
     );
 }
 export default Age;

@@ -1,6 +1,5 @@
 
 import { useState } from "react";
-
 function InputRange({ value, min, max }) {
     const [number, setNumber] = useState(value ?? 0);
     return (
@@ -15,3 +14,8 @@ function InputRange({ value, min, max }) {
     );
 }
 export default InputRange;
+
+
+
+
+
