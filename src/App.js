@@ -37,7 +37,6 @@ function  App() {
 // export default App;
 
 
-import List1 from "./components/List1";
 
 function App() {
   const example1 =["aplle","kiwi","lemon"];

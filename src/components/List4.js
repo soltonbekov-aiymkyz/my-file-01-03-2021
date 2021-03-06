@@ -5,5 +5,5 @@ for (i in example){
    result.push("1" + example[i]+"!")
 }
 
-export default List4;
+//export default List4;
 

@@ -6,7 +6,7 @@ for (item of example){
 }
 }
 
-export default List2;
+//export default List2;
 
 
 
