@@ -15,7 +15,7 @@ export default Rotate;
 
 
 
-
+/*
 
 import { useState } from "react";
 function Rotate() {
@@ -30,5 +30,5 @@ function Rotate() {
     );
 }
 export default Rotate;
-
+*/
 

@@ -1,4 +1,4 @@
-/*
+
 import Switch from "./components/Switch";
 import Counter from "./components/Counter";
 import Name from "./components/Name";
@@ -13,38 +13,25 @@ import Hooki from "./components/Hooki";
 import Age from "./components/Age";
 import Number from "./components/Number";
 import ColorSliders from "./components/ColorSliders";
-function  App() {
-  return(
-    <div className="App">*/
-     {/* <h1 style={{color:"red"}}  >hello</h1> */}
-      // <Switch title="wi fi" />
-      // <Counter />
-      // <Name />
-      // <Inputlength    />
-      //  <Inputcolor />
-      // { <InputRange min={0} max={10}  value={3}/> }
-      // <InputRate   />
-      // <Temps />
-      // <Style />
-      // <StyleColor />
-      // <Hooki  />
-      // <Age />
-      // <Number />
-      // <ColorSliders />
-//     </div>
-//   )
-// };
-// export default App;
-
-
-
 function App() {
-  const example1 =["aplle","kiwi","lemon"];
-return(
-  <div className="App">
-   <list1 items={example1}  />
-  </div>
-)
-}
+  return (
+    <div className="App">
+      { <h1 style={{ color: "red" }}  >hello</h1>}
+      <Switch title="wi fi" />
+      <Counter />
+      <Name />
+      <Inputlength />
+      <Inputcolor />
+      { <InputRange min={0} max={10} value={3} />}
+      <InputRate />
+      <Temps />
+      <Style />
+      <StyleColor />
+      <Hooki />
+      <Age />
+      <Number />
+      <ColorSliders />
+    </div>
+  )
+};
 export default App;
-
