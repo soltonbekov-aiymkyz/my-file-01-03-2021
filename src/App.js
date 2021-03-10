@@ -36,9 +36,22 @@ function App() {
 };
 export default App;
 */
-
-
-
+import Person from "./components/Person/Person";
+import "./App.css";
+function App() {
+  return (
+    <div className="App">
+      <Person name="Elon Baike" age={47}>
+        Ice skating, Eating donuts, Dancing under the moon
+      </Person>
+      <Person name="Bill Baike" age={50}>
+        Saving the world
+      </Person>
+      <span className="highlight">Hello</span>
+    </div>
+  );
+}
+export default App;
 
 
 
