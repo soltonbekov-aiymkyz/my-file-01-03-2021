@@ -1,4 +1,4 @@
-
+/*
 import Switch from "./components/Switch";
 import Counter from "./components/Counter";
 import Name from "./components/Name";
@@ -16,8 +16,8 @@ import ColorSliders from "./components/ColorSliders";
 function App() {
   return (
     <div className="App">
-      { <h1 style={{ color: "red" }}  >hello</h1>}
-      <Switch title="wi fi" />
+       { <h1 style={{ color: "red" }}  >hello</h1>}
+       <Switch title="wi fi" />
       <Counter />
       <Name />
       <Inputlength />
@@ -35,3 +35,11 @@ function App() {
   )
 };
 export default App;
+*/
+
+
+
+
+
+
+
