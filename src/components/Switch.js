@@ -33,15 +33,15 @@ function Switch() {
 export default Switch;
 */
 
-function Switch({title}) {
-    const [state, setState ] = useState(true)
-    return(
-        <div className="Switch">
-           <h1>{title}-{state ? "on" : "off"}</h1>
-           <button onClick={()=>
-            ("hello")}>Toggle</button>
-        </div>
-    )
-}
-export default Switch;
+// function Switch({title}) {
+//     const [state, setState ] = useState(true)
+//     return(
+//         <div className="Switch">
+//            <h1>{title}-{state ? "on" : "off"}</h1>
+//            <button onClick={()=>
+//             ("hello")}>Toggle</button>
+//         </div>
+//     )
+// }
+// export default Switch;
 
