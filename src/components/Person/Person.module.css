@@ -11,3 +11,9 @@
 .age {
     color: tomato;
 }
+.name{
+    text-decoration: underline;
+}
+.hoby{
+    font-style: italic;
+}

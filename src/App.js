@@ -38,6 +38,7 @@ export default App;
 */
 import Person from "./components/Person/Person";
 import "./App.css";
+import Button from "./components/Button/Button";
 function App() {
   return (
     <div className="App">
@@ -48,6 +49,7 @@ function App() {
         Saving the world
       </Person>
       <span className="highlight">Hello</span>
+      <button></button>
     </div>
   );
 }
